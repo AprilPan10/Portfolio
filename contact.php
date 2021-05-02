@@ -152,7 +152,7 @@ echo "Problem";
         </div>
     </div>
     <div class="ghost-block">
-        <div class="col-50" data-aos="fade-left">
+        <div class="col-50">
             <h3>What they say about me<span>.</span></h3>
             <p class="quote"><em>FROM  PROFESSOR</em></p>
             <p>Shimeng Pan is a hard working, talented students in my class. She is really good at web design and web development. She is creative and can solve questions by herself. She will be a good employer in your company</p>
