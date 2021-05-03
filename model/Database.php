@@ -1,9 +1,9 @@
 <?php
 namespace Portfolio\model;
 class Database{
-    private static $user = "root";
-    private static $pass = "";
-    private static $dsn = "mysql:host=localhost;dbname=contact";
+    private static $user = "shimxxju_April";
+    private static $pass = "kyU1Z@.u36@W";
+    private static $dsn = "mysql:host=localhost;dbname=shimxxju_contact_me";
     private static $dbcon;
 
     private function __construct(){

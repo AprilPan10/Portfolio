@@ -615,7 +615,7 @@ svg {
     }
     .banner-text{
         margin: 0 auto;
-        padding: 0;
+
     }
     .banner-text h3{
         font-size: 1em;
@@ -670,6 +670,11 @@ svg {
         text-align: center;
         margin: 0 auto;
         width: 300px;
+    }
+    .menu-footer ul li {
+        display: inline;
+        margin: 0 auto;
+        font-size: 15px;
     }
 }
 
