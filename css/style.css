@@ -459,6 +459,14 @@ h4{
 .img-hover-zoom:hover img {
     transform: scale(1.2);
 }
+.thank h5{
+    height: 80vh ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5em;
+
+}
 /*bootstrap style*/
 .bd-placeholder-img {
     font-size: 1.125rem;
