@@ -228,8 +228,6 @@ span{
 .banner{
     display: flex;
     flex-flow: row wrap;
-    justify-content: left;
-    margin: -4em auto 0;
 }
 .banner-img{
     flex: 1 0 0;
@@ -244,7 +242,7 @@ span{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: -8em auto 0;
+    margin: -14em auto 0;
 }
 .line{
     display: flex;
@@ -285,9 +283,6 @@ span{
     text-align: center;
     font-size: 3em;
     margin: 1em;
-}
-.lang i:hover{
-    color: #ffde91;
 }
 .lang a {
     color: #000;
@@ -518,6 +513,31 @@ svg {
     100%{transform: rotate(10deg);}
 }
 /* tablet and phone style */
+@media (max-width: 1350px){
+    .work{
+        display: block;
+        margin:0 auto;
+    }
+    .description{
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        padding: 1em;
+    }
+    .description p{
+        font-size: 0.8em;
+    }
+    .images img{
+        display: block;
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .detail i{
+        margin-left: 1em;
+    }
+
+}
 @media (max-width: 1300px) {
     .contact-block {
         display: block;
@@ -545,7 +565,7 @@ svg {
     }
     .banner-text{
         display: block;
-        margin-left: 6em;
+        margin-left: 11em;
     }
     .banner-img{
         display: block;
@@ -572,10 +592,17 @@ svg {
     .vl{
         border-right: none;
     }
+    .under{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 300px;
+    }
 }
+
 @media (max-width: 850px) {
     .banner-text{
-        margin-left: 2em;
+        margin-left: 7em;
     }
     .language{
         display: block;
@@ -612,12 +639,40 @@ svg {
         display: inline-block;
         margin: 1em;
     }
+    .wrapper{
+        padding-bottom: 3em;
+    }
+}
+@media (max-width: 750px) {
+    .banner-text{
+        margin-left: 5em;
+    }
+}
+@media (max-width: 660px) {
+    .banner-text{
+        margin-left: 3em;
+    }
+}
+@media (max-width: 590px) {
+    .banner-text{
+        margin-left: 2em;
+    }
+}
+@media (max-width: 570px) {
+    .banner-text{
+        margin-left: 1em;
+    }
+}
+@media (max-width: 525px) {
+    .banner-text{
+        margin-left: 0.5em;
+    }
 }
 @media (max-width: 500px) {
     h1{
         font-size: 1.5em;
     }
-     p{
+    p{
         font-size: 0.8em;
     }
     .banner-img img{
@@ -633,6 +688,9 @@ svg {
     .lang{
         font-size: 2em;
     }
+    .lang img{
+        width:30px;
+    }
     .about{
         margin: -5em auto 0;
     }
@@ -642,28 +700,6 @@ svg {
     }
     .about{
         margin-top: -25em;
-    }
-    .projects{
-        display: block;
-        margin:0 auto;
-    }
-    .description{
-        display: block;
-        margin: 0 auto;
-        width: 200px;
-        padding: 1em;
-    }
-    .description p{
-        font-size: 0.6em;
-    }
-    .images img{
-        display: block;
-        width: 200px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .description i{
-        margin: 0;
     }
     .ghost-block{
         display: block;
@@ -685,6 +721,13 @@ svg {
         display: inline;
         margin: 0 auto;
         font-size: 15px;
+    }
+    .projects{
+        display:block;
+        margin: 0 auto;
+    }
+    .description p{
+        font-size: 0.6em;
     }
 }
 

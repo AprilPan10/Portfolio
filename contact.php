@@ -3,34 +3,34 @@ use Portfolio\model\{Database, Contact};
 require_once 'vendor/autoload.php';
 session_start();
 if(isset($_POST['submit-btn'])){
-$name = $_POST['name'];
-$_SESSION['name'] = $name;
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$msg = $_POST['msg'];
-$pattern = '/^\d{10}$/';
-if($name == "" || $email == "" || $phone == "" || $msg == ""){
-$makeError = "please put valid information";
-}else if (!filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL)) {
-    $email_error = " please enter valid email";
-}else if (!preg_match($pattern, $phone)) {
-    $phone_error = "Please enter correct phone number!";
-}else{
-$dbcon =Database::getDb();
-$p = new Contact();
-$s = $p->addPerson($name,$email,$phone, $msg, $dbcon);
-    $makeSuccess="Thank you!";
-if($s){
-header("Location: contact.php");
-    $send_success = "Message has been sent";
-}else{
-echo "Problem";
+    $name = $_POST['name'];
+    $_SESSION['name'] = $name;
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $msg = $_POST['msg'];
+    $pattern = '/^\d{10}$/';
+    if($name == "" || $email == "" || $phone == "" || $msg == ""){
+        $makeError = "please put valid information";
+    }else if (!filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL)) {
+        $email_error = " please enter valid email";
+    }else if (!preg_match($pattern, $phone)) {
+        $phone_error = "Please enter correct phone number!";
+    }else{
+        $dbcon =Database::getDb();
+        $p = new Contact();
+        $s = $p->addPerson($name,$email,$phone, $msg, $dbcon);
+        $makeSuccess="Thank you!";
+        if($s){
+            header("Location: success.php");
+            $send_success = "Message has been sent";
+        }else{
+            echo "Problem";
 
-}
+        }
 
 
 
-}
+    }
 
 }
 ?>
@@ -157,7 +157,7 @@ echo "Problem";
         <div class="col-50">
             <h3>What they say about me<span>.</span></h3>
             <p class="quote"><em>FROM  PROFESSOR</em></p>
-            <p>Shimeng Pan is a hard working, talented students in my class. She is really good at web design and web development. She is creative and can solve questions by herself. She will be a good employer in your company</p>
+            <p>Shimeng Pan is a hard-working, talented student in my class. She is good at web design and web development. She is creative and can solve questions by herself. She will be a good employer in your company</p>
         </div>
     </div>
 </section>
