@@ -93,8 +93,8 @@ if(isset($_POST['submit-btn'])){
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/panshimengmeng">
-                                            <i class="fab fa-facebook-square"></i>
+                                        <a href="mailto:panshimengmeng@gmail.com">
+                                            <i class="fas fa-envelope"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -189,8 +189,8 @@ if(isset($_POST['submit-btn'])){
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/panshimengmeng">
-                        <i class="fab fa-facebook-square"></i>
+                    <a href="mailto:panshimengmeng@gmail.com">
+                        <i class="fas fa-envelope"></i>
                     </a>
                 </li>
             </ul>
