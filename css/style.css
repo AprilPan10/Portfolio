@@ -34,7 +34,8 @@ h3{
 p{
     font-family: 'Poppins', sans-serif;
     margin-top: 1em;
-    line-height: 1.5;
+    line-height: 2;
+    font-size: 12px;
 }
 span{
     color: #ffde91;
