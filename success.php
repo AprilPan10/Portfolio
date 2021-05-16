@@ -32,6 +32,9 @@
                         <div class = 'nav_list_item'>
                             <li><a href="contact.php">Contact</a></li>
                         </div>
+                        <div class = 'nav_list_item'>
+                            <li><a href="case.html">Case Study</a></li>
+                        </div>
                         <footer class="menu-footer">
                             <nav class="footer-nav">
                                 <ul>
