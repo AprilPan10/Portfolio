@@ -11,6 +11,9 @@
 </head>
 <br>
 <header>
+    <a href="https://shimengpan.website/">
+        <img src="images/logo.svg" width="170" alt="logo of Shimeng Pan" class="logo">
+    </a>
     <div class="container-m">
         <h2>
             <a href="#menu">Menu</a>

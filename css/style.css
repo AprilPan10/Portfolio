@@ -37,6 +37,12 @@ p{
     line-height: 2;
     font-size: 12px;
 }
+.logo{
+    position: fixed;
+    top:20px;
+    left: 30px;
+    z-index: 1000;
+}
 span{
     color: #ffde91;
 }
@@ -511,9 +517,6 @@ h4{
     margin-top: 3em;
     padding-left: 5em;
 }
-.lang i:hover{
-    color: #ffde91;
-}
 .top {
     margin-top: -3em;
 }
@@ -524,6 +527,62 @@ h4{
 }
 .right{
     text-align: center;
+}
+.logo:hover{
+    animation: btn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+@keyframes btn {
+    16.65% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+    33.3% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    49.95% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    66.6% {
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+    83.25% {
+        -webkit-transform: translateY(1px);
+        transform: translateY(1px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+}
+.download {
+    border: 1px solid #000;
+    background: #fff;
+    box-shadow: 4px 3px 0 1px #ffe6a7;
+    padding: 0.5em 2em;
+    display: block;
+    margin: 3em auto 0;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.download:hover{
+    box-shadow: 0 0 0 0 #ffe6a7;
+    transform: translateX(4px);
+    transform: translateY(3px);
+}
+.none{
+    text-decoration: none;
 }
 /*bootstrap style*/
 .bd-placeholder-img {
@@ -881,6 +940,9 @@ svg {
         -o-animation: none !important;
         -ms-animation: none !important;
         animation: none !important;
+    }
+    .logo{
+        position: static;
     }
 }
 
