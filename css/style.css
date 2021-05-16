@@ -583,6 +583,7 @@ h4{
 }
 .none{
     text-decoration: none;
+    color: #000;
 }
 /*bootstrap style*/
 .bd-placeholder-img {
