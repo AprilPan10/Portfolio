@@ -811,8 +811,12 @@ svg {
     .des{
         display: block;
 
-        margin-left: 5em;
-        margin-right: 5em;
+        margin-left: 9em;
+        margin-right: 9em;
+    }
+    .videotext{
+        margin-left: 6em;
+        margin-right: 6em;
     }
 }
 @media (max-width: 900px) {
@@ -882,6 +886,16 @@ svg {
     }
     .image-g{
         width: 500px;
+    }
+    .des{
+        display: block;
+
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .videotext{
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 @media (max-width: 660px) {
