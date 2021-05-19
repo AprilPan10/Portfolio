@@ -291,6 +291,12 @@ span{
     font-size: 3em;
     margin: 1em;
 }
+.langs{
+    display: inline-block;
+    text-align: center;
+    font-size: 3em;
+    margin: 1em;
+}
 .lang a {
     color: #000;
     text-decoration: none;
@@ -502,7 +508,7 @@ h4{
     margin-top: 2em;
 }
 .image{
-    flex: 1 0 0;
+    flex: 2 0 0;
     padding: 2em;
 }
 .video video{
@@ -584,6 +590,67 @@ h4{
 .none{
     text-decoration: none;
     color: #000;
+}
+.list ul li{
+    list-style: none;
+    text-align: center;
+}
+
+.block-u{
+    border: #000 1px solid;
+    padding: 1em;
+    width: 160px;
+    height: 160px;
+    margin-top:-12.5em;
+    margin-left: 2em;
+    background-color: #fff;
+}
+.block-u p{
+    margin-top: 5em;
+}
+.ghostblock{
+    background-color: #ffde91;
+    border: #000 solid 1px;
+    width: 160px;
+    height: 160px;
+}
+.margintop{
+    margin-top: 15em;
+}
+.g-top{
+    margin-top: 7em;
+}
+.case-p{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    margin: 0 auto;
+    font-size: 11px;
+    padding: 5em;
+}
+.g-around{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.image-u{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.case ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+.des p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+.videotext p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
 }
 /*bootstrap style*/
 .bd-placeholder-img {
@@ -684,6 +751,9 @@ svg {
        display: block;
         margin: 0 auto;
     }
+    .g-around{
+        margin: 0;
+    }
 }
 @media (max-width: 1200px) {
     h1{
@@ -781,6 +851,11 @@ svg {
     .wrapper{
         padding-bottom: 3em;
     }
+
+    .persona{
+        display: block;
+        margin: 2em auto;
+    }
 }
 @media (max-width: 750px) {
     .banner-text{
@@ -788,6 +863,12 @@ svg {
     }
     .middle{
         width: 580px;
+    }
+    .image-u{
+        width: 500px;
+    }
+    .image-g{
+        width: 500px;
     }
 }
 @media (max-width: 660px) {
@@ -944,6 +1025,18 @@ svg {
     }
     .logo{
         position: static;
+    }
+    .image-u{
+        width: 320px;
+    }
+    .image-g{
+        width: 320px;
+    }
+    .list ul{
+        margin-top: 1em;
+    }
+    .langs{
+        font-size: 1em;
     }
 }
 
