@@ -249,7 +249,7 @@ span{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: -14em auto 0;
+    margin: 5em auto 0;
 }
 .line{
     display: flex;
@@ -263,11 +263,7 @@ span{
     margin-left: 4em;
     margin-top: 1em;
 }
-.center{
-    flex: 1 0 0;
-    letter-spacing: 2px;
-    font-weight: 600;
-}
+
 .about h3{
     margin-top: 3em;
     font-size: 1.5em;
@@ -652,6 +648,13 @@ h4{
     font-size: 10px;
     font-weight: bold;
 }
+.center {
+    text-decoration: none;
+    color: #000;
+    border-bottom: #ffde91 3px solid;
+    font-size: 20px;
+    font-weight: bold;
+}
 /*bootstrap style*/
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -740,7 +743,7 @@ svg {
     }
     #contact  {
         display: block;
-        margin: 0 auto;
+        margin: 5em auto;
         flex: none;
         padding: 0;
     }
@@ -784,7 +787,7 @@ svg {
     }
     .about{
         display: block;
-        margin: -20em auto 0;
+        margin: 0 auto;
         padding: 5em;
     }
     .language{
@@ -948,14 +951,14 @@ svg {
         width:30px;
     }
     .about{
-        margin: -5em auto 0;
+        margin: 2em auto 0;
     }
     .contact-block{
         margin-top: 3em;
         width: 375px;
     }
-    .about{
-        margin-top: -25em;
+    #contact{
+        margin-top:3em;
     }
     .ghost-block{
         display: block;
@@ -1065,6 +1068,9 @@ svg {
     }
     .langs{
         font-size: 1em;
+    }
+    .center{
+        font-size: 12px;
     }
 }
 
