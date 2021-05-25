@@ -216,7 +216,6 @@ span{
 
 .center{
     flex: 1 0 0;
-    text-transform: uppercase;
     font-size: 0.5em;
 }
 /* home page style*/
@@ -397,6 +396,7 @@ span{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    clear: both;
 }
 .work{
     flex: 2 0 0;
@@ -655,6 +655,46 @@ h4{
     font-size: 20px;
     font-weight: bold;
 }
+.wrapper-d{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: #000 1px solid;
+    padding: 3em;
+    margin-top:-5em;
+    background-color: #fff;
+}
+.week{
+    background-color: #ffde91;
+    border: #000 solid 1px;
+    height: 150px;
+}
+.week h3{
+    margin-left: 2em;
+}
+.learning{
+    flex: 5 0 0;
+}
+.final{
+    flex: 5 0 0;
+}
+.learninglist{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.time{
+    font-style: italic;
+}
+.tops{
+    margin-top: 3em;
+}
+.weeks{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    clear: both;
+    margin-top: 2em;
+}
 /*bootstrap style*/
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -761,6 +801,9 @@ svg {
     }
     .g-around{
         margin: 0;
+    }
+    .wrapper-d{
+        display: block;
     }
 }
 @media (max-width: 1200px) {
@@ -875,11 +918,21 @@ svg {
         display: block;
         margin: 2em auto;
     }
+    .image-u{
+        width:700px;
+    }
+    .image-g{
+        width:700px;
+    }
+    .weeks{
+        display: block;
+        padding: 1em;
+    }
 
 }
 @media (max-width: 750px) {
     .banner-text{
-        margin-left: 5em;
+        margin-left: 3em;
     }
     .middle{
         width: 580px;
@@ -903,15 +956,30 @@ svg {
 }
 @media (max-width: 660px) {
     .banner-text{
-        margin-left: 3em;
+        margin-left: 1em;
     }
 }
 @media (max-width: 590px) {
     .banner-text{
-        margin-left: 2em;
+        margin-left: 1em;
     }
     .middle{
         width: 550px;
+    }
+    .image-u{
+        width: 420px;
+    }
+    .image-g{
+        width: 420px;
+         margin: 0 auto;
+      
+    }
+    .langs{
+        font-size: 1.5em;
+    }
+      .video video{
+        width: 340px;
+        height: 230px;
     }
 }
 @media (max-width: 570px) {
@@ -926,6 +994,7 @@ svg {
     .banner-text{
         margin-left: 0.5em;
     }
+  
 }
 @media (max-width: 500px) {
     h1{
@@ -951,11 +1020,11 @@ svg {
         width:30px;
     }
     .about{
-        margin: 2em auto 0;
+        margin: 0 auto;
     }
     .contact-block{
-        margin-top: 3em;
-        width: 375px;
+        margin-top:0;
+        width: 360px;
     }
     #contact{
         margin-top:3em;
@@ -1057,10 +1126,10 @@ svg {
         position: static;
     }
     .image-u{
-        width: 320px;
+        width: 310px;
     }
     .image-g{
-        width: 320px;
+        width: 310px;
         margin: 0 auto;
     }
     .list ul{

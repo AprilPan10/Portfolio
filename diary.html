@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width">
+    <title>Project</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="images/icon.svg">
+    <script data-search-pseudo-elements defer src="https://kit.fontawesome.com/52eb7513f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <a href="https://shimengpan.website/">
+        <img src="images/logo.svg" width="170" alt="logo of Shimeng Pan" class="logo">
+    </a>
+    <div class="container-m">
+        <h2>
+            <a href="#menu">Menu</a>
+        </h2>
+        <div class="popover" id="menu">
+            <div class = 'content'>
+                <a href="#" class="close"></a>
+                <div class = 'nav'>
+                    <ul class = 'nav_list'>
+                        <div class = 'nav_list_item'>
+                            <li><a href="index.html">Home</a></li>
+                        </div>
+                        <div class = 'nav_list_item'>
+                            <li><a href="project.html">Project</a></li>
+                        </div>
+                        <div class = 'nav_list_item'>
+                            <li><a href="case.html">Case Study</a></li>
+                        </div>
+                        <div class = 'nav_list_item'>
+                            <li><a href="diary.html">Coding Diaries</a></li>
+                        </div>
+                        <div class = 'nav_list_item'>
+                            <li><a href="contact.php">Contact</a></li>
+                        </div>
+                        <footer class="menu-footer">
+                            <nav class="footer-nav">
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/shimeng_pan">
+                                            <i class="fa fa-twitter fa-fw"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/panshimengmeng/">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/AprilPan10">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="www.linkedin.com/in/shimeng-pan">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:panshimengmeng@gmail.com">
+                                            <i class="fas fa-envelope"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </footer>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="project tops">
+    <h3>The Coding Diaries<span>.</span></h3>
+</div>
+<div class="weeks">
+    <div class="ghost"></div>
+    <div class="work">
+        <div class="persona">
+        <div class="week"><h3><i class="fab fa-react"></i> Week 1 - React</h3></div>
+            <div class="wrapper-d">
+                <div class="learning">
+                    <h3>Learning Process<span>.</span></h3>
+                    <p class="time">05-23-2021 from 13:00 - 22:00</p>
+                    <p>Learning React online - Udemy</p>
+                    <p><strong>What I learned</strong></p>
+                    <ul class="learninglist">
+                        <li>What is React?</li>
+                        <li>Setup for React Development</li>
+                        <li>JSX Attributes & Styling React Elements</li>
+                        <li>React Components</li>
+                        <li>JavaScript ES6 - Import, Export and Modules</li>
+                        <li>Mapping Data to Components</li>
+                        <li>Map/Filter/Reduce</li>
+                        <li>Arrow Functions</li>
+                        <li>Rendering with the Ternary Operator</li>
+                        <li>useState Hook</li>
+                        <li>Object & Array Destructuring</li>
+                        <li>Event Handling</li>
+                    </ul>
+                </div>
+                <div class="final">
+                    <h3>Final Project<span>.</span></h3>
+                    <p class="time">05-24-2021 from 13:00 - 18:00</p>
+                    <p>This project uses React and Open Weather API to allow users to search a city's weather, display a city's time as well as whether it is day or night time.</p>
+                    <p><strong>Challenge</strong> - Time zone - My plan is when users type in the city, it will display local time, and show whether is daytime or nighttime</p>
+                    <p><strong>How to solve</strong>  - Time zone - Create new date, covert to UTC, covert to milliseconds, add to epoch time to get local time. Compare with sunrise and sunset time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ghost"></div>
+</div>
+<footer>
+    <div class="copyright">
+        <p>All rights reserved | 2021</p>
+    </div>
+    <div class="socialmedia">
+        <nav class="footer-navigation">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/shimeng_pan">
+                        <i class="fa fa-twitter fa-fw"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/panshimengmeng/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/AprilPan10">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="www.linkedin.com/in/shimeng-pan">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:panshimengmeng@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 1000
+    });
+</script>
+</body>
+</html>
