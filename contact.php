@@ -65,16 +65,16 @@ if(isset($_POST['submit-btn'])){
                             <li><a href="index.html">Home</a></li>
                         </div>
                         <div class = 'nav_list_item'>
-                            <li><a href="index.html#about">About</a></li>
-                        </div>
-                        <div class = 'nav_list_item'>
                             <li><a href="project.html">Project</a></li>
                         </div>
                         <div class = 'nav_list_item'>
-                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="case.html">Case Study</a></li>
                         </div>
                         <div class = 'nav_list_item'>
-                            <li><a href="case.html">Case Study</a></li>
+                            <li><a href="diary.html">Coding Diaries</a></li>
+                        </div>
+                        <div class = 'nav_list_item'>
+                            <li><a href="contact.php">Contact</a></li>
                         </div>
                         <footer class="menu-footer">
                             <nav class="footer-nav">
