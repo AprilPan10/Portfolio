@@ -267,7 +267,6 @@ span{
     margin-top: 3em;
     font-size: 1.5em;
     font-weight: 600;
-
 }
 .aboutme{
     flex: 1 0 0;
@@ -1028,6 +1027,9 @@ svg {
     }
     #contact{
         margin-top:3em;
+    }
+    .about h3{
+        margin-top: 1em;
     }
     .ghost-block{
         display: block;
