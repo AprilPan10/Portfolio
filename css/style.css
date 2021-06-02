@@ -1153,6 +1153,9 @@ svg {
     .center{
         font-size: 12px;
     }
+    ol, ul{
+        padding-left:0;
+    }
     .skill{
         padding-left: 0;
     }
@@ -1161,6 +1164,9 @@ svg {
     }
     .banner-text{
         padding-left: 3em;
+    }
+    .week{
+        height: 200px;
     }
 }
 
