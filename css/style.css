@@ -694,6 +694,9 @@ h4{
     clear: both;
     margin-top: 2em;
 }
+.margin-top{
+    margin-top: -2em;
+}
 /*bootstrap style*/
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -876,9 +879,13 @@ svg {
     }
     .language{
         display: block;
+        text-align: center;
     }
     .lang{
-        display: block;
+        display: inline-block;
+    }
+    .margin-top{
+        margin-top: 0;
     }
     #name {
         width: 80%;
@@ -956,6 +963,9 @@ svg {
 @media (max-width: 660px) {
     .banner-text{
         margin-left: 1em;
+    }
+    .banner-text{
+        padding-left: 4em;
     }
 }
 @media (max-width: 590px) {
@@ -1142,6 +1152,15 @@ svg {
     }
     .center{
         font-size: 12px;
+    }
+    .skill{
+        padding-left: 0;
+    }
+    .about{
+        padding: 3em;
+    }
+    .banner-text{
+        padding-left: 3em;
     }
 }
 
